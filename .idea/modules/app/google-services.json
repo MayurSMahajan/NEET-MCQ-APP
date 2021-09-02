@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "367175928853",
+    "firebase_url": "https://neet-mcq-736d4-default-rtdb.firebaseio.com",
+    "project_id": "neet-mcq-736d4",
+    "storage_bucket": "neet-mcq-736d4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:367175928853:android:da8d9ac37d610fc49e521c",
+        "android_client_info": {
+          "package_name": "com.hfad.neet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "367175928853-5jl24u6mk4605501pfqq56lt7l0fp19s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hfad.neet",
+            "certificate_hash": "4dbb23d171de6bb5f267ed40f6424ceacd3a7a49"
+          }
+        },
+        {
+          "client_id": "367175928853-2t4ac16q3budplbo7me73h4la2bbp3ip.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCADYFuqD-5XJPYAOQXFUF35-CT5s-57Bk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "367175928853-2t4ac16q3budplbo7me73h4la2bbp3ip.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

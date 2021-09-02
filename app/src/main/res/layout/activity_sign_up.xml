@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bgGray"
+    tools:context=".SignUpActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:letterSpacing="0.125"
+        android:text="@string/welcome"
+        android:textColor="#222"
+        android:textSize="32sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:text="@string/sign_up_instruction"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <EditText
+        android:id="@+id/email_field"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="120dp"
+        android:background="@drawable/input_bg"
+        android:hint="@string/enter_your_email_here"
+        android:inputType="textEmailAddress"
+        android:paddingStart="40dp"
+        android:paddingEnd="30dp"
+        android:textColor="@color/bgDarkGray"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        android:autofillHints="@string/enter_your_email_here" />
+
+    <EditText
+        android:id="@+id/pass_field"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/input_bg"
+        android:hint="@string/enter_your_password"
+        android:paddingStart="40dp"
+        android:paddingEnd="30dp"
+        android:inputType="textPassword"
+        android:textColor="@color/bgDarkGray"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/email_field"
+        android:autofillHints="@string/enter_your_password" />
+
+    <EditText
+        android:id="@+id/c_pass_field"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:inputType="textPassword"
+        android:background="@drawable/input_bg"
+        android:hint="@string/confirm_password"
+        android:textColor="@color/bgDarkGray"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:paddingStart="40dp"
+        android:paddingEnd="30dp"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        android:autofillHints="@string/enter_your_password"
+        app:layout_constraintTop_toBottomOf="@+id/pass_field" />
+
+    <Button
+        android:id="@+id/sign_up_btn"
+        android:layout_width="350dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/button_bg"
+        android:text="@string/sign_up"
+        android:textColor="#fff"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/c_pass_field" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

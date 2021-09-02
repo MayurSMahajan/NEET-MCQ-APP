@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#fff"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/no_internet_connection"
+        android:textColor="#111"
+        android:textSize="22sp"
+        android:gravity="center"
+         />
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:src="@drawable/no_internet_animation"
+        android:contentDescription="@string/no_internet_connection" />
+
+    <TextView
+        android:gravity="center"
+        android:layout_marginBottom="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="25dp"
+        android:text="@string/turn_mobile_data_on_or_connect_to_a_wifi_and_restart_the_app"
+        android:textAlignment="center"
+        android:textColor="#111"
+        android:textSize="22sp"
+        />
+
+    <Button
+        android:id="@+id/restartApp"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:text="@string/restart"
+        android:textSize="24sp"
+        android:textColor="#fff"
+        android:background="@drawable/button_bg"
+        />
+
+</LinearLayout>

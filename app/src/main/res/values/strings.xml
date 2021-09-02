@@ -1,0 +1,73 @@
+<resources>
+    <string name="app_name">NEET</string>
+    <string name="chapter_1">Chapter 1</string>
+    <string name="chapter_2">Chapter 2</string>
+    <string name="chapter_3">Chapter 3</string>
+    <string name="chapter_4">Chapter 4</string>
+    <string name="chapter_5">Chapter 5</string>
+    <string name="chapter_6">Chapter 6</string>
+    <string name="chapter_7">Chapter 7</string>
+    <string name="chapter_8">Chapter 8</string>
+    <string name="chapter_9">Chapter 9</string>
+    <string name="chapter_10">Chapter 10</string>
+
+    <string name="sample_question">This is the question field.</string>
+    <string name="start_solving">Start Solving</string>
+    <string name="login">Login</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="chapter">Chapter</string>
+    <string name="welcome_back_str">Welcome Back!</string>
+
+
+    <string name="forgot_password">Forgot Password ?</string>
+
+    <string name="don_t_have_an_account">Don\'t have an account ? -</string>
+    <string name="sign_in">Sign In</string>
+    <string name="neet_mcq_app">NEET MCQ APP</string>
+    <string name="welcome">Welcome !</string>
+    <string name="please_login_to_continue">Please login to continue!</string>
+    <string name="sign_up_instruction">Please enter valid details in the following fields to create your account.</string>
+    <string name="enter_your_email_here">Enter Your Email Here</string>
+    <string name="enter_your_password">Enter Your Password</string>
+    <string name="not_an_user_click">Not an User? Click</string>
+    <string name="_1">1</string>
+    <string name="select_chapter">Select a Chapter</string>
+    <string name="end_of_scrollview">That is it, No more chapters left!</string>
+    <string name="mcqs">MCQs</string>
+    <string name="s_questions">5</string>
+    <string name="m_questions">10</string>
+    <string name="l_questions">15</string>
+    <string name="xl_questions">25</string>
+    <string name="select_a_round">Select a Round</string>
+    <string name="ready">Ready</string>
+    <string name="go">GO</string>
+    <string name="click_this_button_to_start">Click this button to start</string>
+    <string name="selected_chapter">Selected Chapter :</string>
+    <string name="selected_no_of_questions">Selected No. of Questions : </string>
+    <string name="next">Next</string>
+    <string name="explanation">Explanation</string>
+    <string name="forgot_password_click">Forgot Password? Click</string>
+    <string name="reset_it">Reset IT</string>
+    <string name="hello">Hello, There!</string>
+    <string name="basic">BASIC</string>
+    <string name="subscribe">Subscribe</string>
+    <string name="manage_account">Manage Account</string>
+    <string name="old_papers">Old Papers</string>
+    <string name="rapid">RAPID</string>
+    <string name="hard">HARD</string>
+    <string name="blitz">BLITZ</string>
+    <string name="no_internet_connection">No Internet Connection!</string>
+    <string name="turn_mobile_data_on_or_connect_to_a_wifi_and_restart_the_app">Turn Mobile Data On or Connect to a WiFi and restart the app.</string>
+    <string name="restart">Restart</string>
+    <string name="go_ad_free">Go AD FREE</string>
+    <string name="share_with_buddies">SHARE WITH BUDDIES</string>
+    <string name="log_out">LOG OUT</string>
+    <string name="delete_account">DELETE ACCOUNT</string>
+    <string name="accuracy">Accuracy</string>
+    <string name="replay">Replay</string>
+    <string name="home">HOME</string>
+    <string name="we_offer_ad_free_experience_for_no_cost_enjoy_learning">We Offer Ad Free Experience For No Cost! Enjoy Learning!</string>
+    <string name="out_of_papers">We currently do not have the required papers. Stay Tuned!</string>
+    <string name="selected_chapter_number">Selected Chapter Number :</string>
+</resources>

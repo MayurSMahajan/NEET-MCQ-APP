@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddQuestions">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <EditText
+                android:id="@+id/editTextQuestion"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_margin="20dp"
+                android:autofillHints="Enter the Question"
+                android:hint="Enter the Question"
+                android:maxLines="3"
+                android:paddingStart="10dp"
+                android:paddingEnd="5dp"
+                android:textAlignment="viewStart" />
+
+            <EditText
+                android:id="@+id/editTextA"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="130dp"
+                android:layout_marginEnd="20dp"
+                android:autofillHints="Enter the Question"
+                android:hint="Enter OptionA"
+                android:maxLines="3"
+                android:paddingStart="10dp"
+                android:paddingEnd="5dp"
+                android:textAlignment="viewStart" />
+
+            <EditText
+                android:id="@+id/editTextB"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="200dp"
+                android:layout_marginEnd="20dp"
+                android:autofillHints="Enter the Question"
+                android:hint="Enter OptionB"
+                android:maxLines="3"
+                android:paddingStart="10dp"
+                android:paddingEnd="5dp"
+                android:textAlignment="viewStart" />
+
+            <EditText
+                android:id="@+id/editTextC"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="280dp"
+                android:layout_marginEnd="20dp"
+                android:autofillHints="Enter the Question"
+                android:hint="Enter OptionC"
+                android:maxLines="3"
+                android:paddingStart="10dp"
+                android:paddingEnd="5dp"
+                android:textAlignment="viewStart" />
+
+            <EditText
+                android:id="@+id/editTextD"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="360dp"
+                android:layout_marginEnd="20dp"
+                android:autofillHints="Enter the Question"
+                android:hint="Enter OptionD"
+                android:maxLines="3"
+                android:paddingStart="10dp"
+                android:paddingEnd="5dp"
+                android:textAlignment="viewStart" />
+
+            <EditText
+                android:id="@+id/editTextAns"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="440dp"
+                android:layout_marginEnd="20dp"
+                android:autofillHints="Enter the Question"
+                android:hint="Enter Answer"
+                android:maxLines="3"
+                android:paddingStart="10dp"
+                android:paddingEnd="5dp"
+                android:textAlignment="viewStart" />
+
+            <EditText
+                android:id="@+id/editTextExplanation"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="550dp"
+                android:layout_marginEnd="20dp"
+                android:autofillHints="Enter the Question"
+                android:hint="Enter Explanation"
+                android:maxLines="3"
+                android:paddingStart="10dp"
+                android:paddingEnd="5dp"
+                android:textAlignment="viewStart" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="650dp"
+                android:text="Submit Question"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:onClick="submitQuestion"
+                />
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

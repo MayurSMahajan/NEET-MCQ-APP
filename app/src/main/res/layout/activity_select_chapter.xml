@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/bgGray"
+    android:layout_height="match_parent"
+    tools:context=".SelectChapter">
+
+    <TextView
+        android:id="@+id/selectChapterTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/select_chapter"
+        android:paddingBottom="40dp"
+        android:paddingTop="60dp"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="22sp"
+        android:letterSpacing="0.2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="600dp"
+        android:background="@drawable/scrollview_bg"
+        android:paddingEnd="25dp"
+        android:paddingStart="25dp"
+        android:paddingTop="50dp"
+        android:layout_marginTop="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/selectChapterTv">
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:useDefaultMargins="true">
+
+            <Button
+                android:id="@+id/chapter_btn_1"
+                android:layout_width="match_parent"
+                android:background="@drawable/select_chapter_bg"
+                android:layout_height="80dp"
+                android:text="@string/chapter_1"
+                android:textColor="@color/royalBlue"
+                android:textSize="22sp" >
+                
+
+            </Button>
+
+            <Button
+                android:id="@+id/chapter_btn_2"
+                android:background="@drawable/select_chapter_bg"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:text="@string/chapter_2"
+                android:textColor="@color/royalBlue"
+                android:textSize="22sp" />
+
+            <Button
+                android:id="@+id/chapter_btn_3"
+                android:layout_width="match_parent"
+                android:background="@drawable/select_chapter_bg"
+                android:layout_height="80dp"
+                android:textColor="@color/royalBlue"
+                android:text="@string/chapter_3"
+                android:textSize="22sp" />
+
+            <Button
+                android:id="@+id/chapter_btn_4"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:textColor="@color/royalBlue"
+                android:text="@string/chapter_4"
+                android:background="@drawable/select_chapter_bg"
+                android:textSize="22sp" />
+
+            <Button
+                android:id="@+id/chapter_btn_5"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:text="@string/chapter_5"
+                android:textColor="@color/royalBlue"
+                android:background="@drawable/select_chapter_bg"
+                android:textSize="22sp" />
+
+            <Button
+                android:id="@+id/chapter_btn_6"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:text="@string/chapter_6"
+                android:textColor="@color/royalBlue"
+                android:background="@drawable/select_chapter_bg"
+                android:textSize="22sp" />
+
+            <Button
+                android:id="@+id/chapter_btn_7"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:text="@string/chapter_7"
+                android:textColor="@color/royalBlue"
+                android:background="@drawable/select_chapter_bg"
+                android:textSize="22sp" />
+
+            <Button
+                android:id="@+id/chapter_btn_8"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:textColor="@color/royalBlue"
+                android:background="@drawable/select_chapter_bg"
+                android:text="@string/chapter_8"
+                android:textSize="22sp" />
+
+            <Button
+                android:id="@+id/chapter_btn_9"
+                android:layout_width="match_parent"
+                android:textColor="@color/royalBlue"
+                android:layout_height="80dp"
+                android:background="@drawable/select_chapter_bg"
+                android:text="@string/chapter_9"
+                android:textSize="22sp" />
+
+            <Button
+                android:id="@+id/chapter_btn_10"
+                android:layout_width="match_parent"
+                android:textColor="@color/royalBlue"
+                android:background="@drawable/select_chapter_bg"
+                android:layout_height="80dp"
+                android:text="@string/chapter_10"
+                android:textSize="22sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:text="@string/end_of_scrollview"
+                android:textAlignment="center"
+                android:textColor="#111"
+                android:textSize="16sp" />
+
+
+        </GridLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

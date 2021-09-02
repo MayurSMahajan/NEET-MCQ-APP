@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bgGray"
+    tools:context=".HomeActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="25dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:textColor="@color/royalBlue"
+            android:layout_width="260dp"
+            android:layout_height="wrap_content"
+            android:paddingStart="25dp"
+            android:paddingTop="20dp"
+            android:paddingEnd="5dp"
+            android:text="@string/hello"
+            android:textAlignment="viewStart"
+            android:textSize="28sp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:letterSpacing="0.25"
+        android:text="@string/select_a_round"
+        android:textSize="22sp"
+        android:textColor="@color/royalBlue"
+        app:layout_constraintBottom_toTopOf="@+id/scrollView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/linearLayout"
+        app:layout_constraintVertical_bias="0.93" />
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:paddingStart="10dp"
+        android:paddingTop="10dp"
+        android:paddingEnd="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        app:layout_constraintVertical_bias="0.137">
+
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="2"
+            android:orientation="vertical"
+            android:rowCount="2"
+            android:useDefaultMargins="true">
+
+            <RelativeLayout
+                android:id="@+id/s_round"
+                android:layout_width="170dp"
+                android:layout_height="125dp"
+                android:layout_margin="10dp"
+                android:layout_marginTop="0dp"
+                android:background="@drawable/s_bg"
+                android:elevation="7dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingStart="20dp"
+                    android:paddingEnd="5dp"
+                    android:text="@string/s_questions"
+                    android:textColor="@color/yellow"
+                    android:textSize="46sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginStart="-50dp"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginEnd="31dp"
+                    android:text="@string/mcqs"
+                    android:textColor="@color/yellow"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="100dp"
+                    android:layout_marginTop="80dp"
+                    android:text="@string/basic"
+                    android:textColor="@color/white"
+                    android:textSize="20sp" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/xl_round"
+                android:layout_width="170dp"
+                android:layout_height="125dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/xl_bg"
+                android:elevation="7dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingStart="20dp"
+                    android:paddingEnd="5dp"
+                    android:text="@string/xl_questions"
+                    android:textColor="@color/Lavender"
+                    android:textSize="46sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="80dp"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginEnd="31dp"
+                    android:text="@string/mcqs"
+                    android:textColor="@color/Lavender"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="100dp"
+                    android:layout_marginTop="80dp"
+                    android:text="@string/hard"
+                    android:textColor="@color/white"
+                    android:textSize="20sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/m_round"
+                android:layout_width="170dp"
+                android:layout_height="125dp"
+                android:layout_margin="10dp"
+                android:layout_marginTop="0dp"
+                android:background="@drawable/m_bg"
+                android:elevation="7dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingStart="20dp"
+                    android:paddingEnd="5dp"
+                    android:text="@string/m_questions"
+                    android:textColor="@color/royalBlue"
+                    android:textSize="46sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="80dp"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginEnd="31dp"
+                    android:text="@string/mcqs"
+                    android:textColor="@color/royalBlue"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="100dp"
+                    android:layout_marginTop="80dp"
+                    android:text="@string/blitz"
+                    android:textColor="@color/white"
+                    android:textSize="20sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/l_round"
+                android:layout_width="170dp"
+                android:layout_height="125dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/l_bg"
+                android:elevation="7dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingStart="20dp"
+                    android:paddingEnd="5dp"
+                    android:text="@string/l_questions"
+                    android:textColor="@color/orange"
+                    android:textSize="46sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="80dp"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginEnd="31dp"
+                    android:text="@string/mcqs"
+                    android:textColor="@color/orange"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="100dp"
+                    android:layout_marginTop="80dp"
+                    android:text="@string/rapid"
+                    android:textColor="@color/white"
+                    android:textSize="20sp" />
+            </RelativeLayout>
+
+
+        </GridLayout>
+
+    </ScrollView>
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="20dp">
+
+            <Button
+                android:id="@+id/manage_account_btn"
+                android:layout_width="285dp"
+                android:layout_height="175dp"
+                android:layout_marginStart="20dp"
+                android:background="@drawable/manage_account"
+                android:onClick="goToManageAccount"
+                tools:ignore="ButtonStyle" />
+
+
+            <Button
+                android:id="@+id/subscribe"
+                android:layout_width="285dp"
+                android:layout_height="175dp"
+                android:layout_marginStart="20dp"
+                android:background="@drawable/subscribe"
+                android:onClick="goToSubscribe"
+                tools:ignore="ButtonStyle" />
+
+
+
+        </LinearLayout>
+
+
+    </HorizontalScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
